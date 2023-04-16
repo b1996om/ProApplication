@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--GridLayout속성-->
+<!--orientation : 뱡향 설정-->
+<!--columnCount : 가로로 나열할 뷰 개수-->
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:columnCount="3"
+    >
+    <Button
+        android:text="A"
+        android:backgroundTint="#ffa96a"
+        />
+    <Button
+        android:text="B"
+        android:backgroundTint="#b25d72"
+         />
+    <Button
+        android:text="C"
+        android:backgroundTint="#ffa96a"
+        />
+    <Button
+        android:text="D"
+        android:backgroundTint="#b25d72"
+        />
+    <Button
+        android:text="E"
+        android:backgroundTint="#ffa96a"
+        />
+
+</GridLayout>

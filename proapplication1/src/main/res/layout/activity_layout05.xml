@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--여백 채우기로 뷰의 크기 설정하기-->
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="BUTTON1"
+        android:layout_weight="1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="BUTTON2"
+        android:layout_weight="1"
+         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="BUTTON3"
+        android:layout_weight="1"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <Button
+        android:id="@+id/testImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#e68484"
+        android:text="Kim Bom" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/testImage"
+        android:layout_toRightOf="@+id/testImage"
+        android:src="@mipmap/ic_launcher"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kim Bom"
+        android:backgroundTint="#e68484"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/testImage"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--LinearLayout 사용법!-->
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f8ede5"
+    >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON1"
+        android:visibility="visible"
+        android:backgroundTint="#e68484" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON2"
+        android:backgroundTint="#e06666"
+        android:visibility="invisible" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON2"
+        android:backgroundTint="#e06666"
+        android:visibility="gone" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON2"
+        android:backgroundTint="#e06666"
+        android:visibility="invisible" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

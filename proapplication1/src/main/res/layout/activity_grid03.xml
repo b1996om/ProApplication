@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--GridLayout속성-->
+<!--layout_row:뷰가 위치하는 세로 방향 인덱스-->
+<!--layout_column:뷰가 위치하는 가로 방향 인덱스-->
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:columnCount="3"
+    >
+    <Button
+        android:text="A"
+        android:backgroundTint="#ffa96a"
+        />
+    <Button
+        android:text="B"
+        android:backgroundTint="#b25d72"
+         />
+    <Button
+        android:text="C"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:backgroundTint="#ffa96a"
+        />
+    <Button
+        android:text="D"
+        android:backgroundTint="#b25d72"
+        />
+    <Button
+        android:text="E"
+        android:backgroundTint="#ffa96a"
+        />
+
+</GridLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--LinearLayout 사용법!-->
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f8ede5"
+    >
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="helloworld"
+       android:textColor="#ff0000"
+       android:textSize="20sp"
+       android:textStyle="bold"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="이지스퍼블리싱 - 웹페이지 :http://easyspub.com, 전화번호 : 325-1722, 이메일 : easy@easyspub.co.kr"
+        android:autoLink="web|email|phone" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/long_text"
+        android:singleLine="true"
+        android:ellipsize="middle" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/long_text2"
+        android:maxLines="3"
+        android:ellipsize="end" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

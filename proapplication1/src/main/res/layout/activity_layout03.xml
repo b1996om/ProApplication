@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--여백을 채우는 layout_weight 속성-->
+<!--뷰 여러개로 여백을 나누어 채우기 : layout_weight 값을 각각 1과 3으로 선언했다면 가로 여백을 각각 1/4, 3/4만큼 나누어 차지-->
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON1"
+        android:layout_weight="1"
+        android:backgroundTint="#835fab"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON2"
+        android:layout_weight="3"
+         />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

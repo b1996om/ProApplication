@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--여백을 채우는 layou_weight 속성-->
+<!--뷰 1개로 전체 여백 채우기 : 여백을 뷰로 채우려면 layout_weight속성 사용-->
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON1"
+        android:layout_weight="1"
+        android:backgroundTint=" #5D9EAA"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUTTON2"
+        android:backgroundTint="#358695"
+         />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

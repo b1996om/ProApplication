@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--LinearLayout 사용법!-->
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f8ede5"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/username"
+        android:textSize="24dp"
+        android:hint="이름을 입력하세요"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/userid"
+        android:textSize="24dp"
+        android:hint="아이디를 입력하세요"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:id="@+id/userpwd"
+        android:textSize="24dp"
+        android:hint="비밀번호를 입력하세요"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:id="@+id/useraddr"
+        android:textSize="24dp"
+        android:hint="주소를 입력하세요"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/num"
+        android:textSize="24dp"
+        android:hint="좋아하는 숫자를 입력하세요"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:id="@+id/userintro"
+        android:textSize="24dp"
+        android:hint="자기소개해주세요"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/useremail"
+        android:textSize="24dp"
+        android:hint="이메일을 입력하세요"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:id="@+id/userphone"
+        android:textSize="24dp"
+        android:hint="전화번호를 입력하세요"/>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

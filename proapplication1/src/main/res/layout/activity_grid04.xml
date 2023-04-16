@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--특정 뷰의 크기 확장하기-->
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:columnCount="3"
+    >
+    <Button
+        android:text="A"
+        android:backgroundTint="#ffa96a"
+        />
+    <Button
+        android:text="HelloWorldHelloWorld"
+        android:backgroundTint="#b25d72"
+         />
+    <Button
+        android:text="C"
+        android:backgroundTint="#ffa96a"
+        />
+    <Button
+        android:text="D"
+        android:backgroundTint="#b25d72"
+        />
+    <Button
+        android:text="E"
+        android:layout_gravity="fill_horizontal"
+        android:backgroundTint="#ffa96a"
+        />
+    <Button
+        android:text="F"
+        android:backgroundTint="#b25d72"
+        />
+
+</GridLayout>
